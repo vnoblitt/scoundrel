@@ -1,0 +1,47 @@
+body {
+    background-color: dimgray;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    height: 25vh;
+    grid-row: 1;
+}
+
+.deck {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.discard {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.life {
+    grid-column: 1;
+    grid-row: 2;
+
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+
+#game-over {
+    display: none;
+}
+
+#game-over.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 100px;
+    color: white
+}
