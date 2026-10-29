@@ -1,2 +1,2 @@
 # scoundrel
-Single player card game by Zach Gage and Kurt Bie.
+Single player card game by Zach Gage and Kurt Bieg.
